@@ -2,7 +2,7 @@
 src/node_modules/
 
 # Build
-src/dist/
+
 
 # Environment
 .env
