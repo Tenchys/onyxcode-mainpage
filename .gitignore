@@ -1,0 +1,21 @@
+# Dependencies
+src/node_modules/
+
+# Build
+src/dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
