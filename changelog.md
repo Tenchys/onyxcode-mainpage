@@ -4,6 +4,24 @@ Todos los cambios se documentan cronológicamente, del más reciente al más ant
 
 ---
 
+## [2026-03-10] Fix Tailwind CSS no generaba utilidades
+
+### Problema
+- Los estilos de Tailwind no se aplicaban correctamente en dev mode
+- Iconos se veían gigantes y sin estilos
+
+### Archivos afectados
+- src/tailwind.config.ts
+- src/tsconfig.json
+- src/index.html
+
+### Solución
+- Corregido content path de `./src/**/*` a rutas absolutas
+- Corregido tsconfig.json include de "src" a "."
+- Cambiado src/index.html script de `/src/main.tsx` a `/main.tsx`
+
+---
+
 ## [2025-03-09] Versión principal - iteracion2
 
 ### Problema
