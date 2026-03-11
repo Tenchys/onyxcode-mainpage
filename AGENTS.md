@@ -29,3 +29,13 @@ OnyxCode.cl es una startup de desarrollo de software web personalizado. La landi
 - Responder siempre en español.
 - **Toda creación/actualización/eliminación de archivos debe ser autorizada por el usuario.**
 - Cada cambio documentado en `changelog.md` separado por sesiones, ordenado cronológicamente (más reciente primero), incluyendo: fecha, problema, archivos afectados y solución. Mostrar vista previa antes de guardar.
+
+## Directrices UX/UI
+Todos los componentes de la landing page deben seguir las especificaciones definidas en [UI-UX-LANDING.md](./UI-UX-LANDING.md). Este archivo es la fuente de verdad para:
+- Paleta de colores y jerarquía de superficies
+- Tipografía y escala
+- Componentes universales (botones, inputs, cards, etc.)
+- Estructura de la landing page
+- Accesibilidad
+
+Antes de crear o modificar cualquier componente, consulta UI-UX-LANDING.md para usar los estilos correctos.
